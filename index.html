@@ -1,0 +1,322 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turgut Özal School</title>
+
+<style
+<html>>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#F5F7FA;
+    color:#0a0808;
+}
+
+/* Navigation */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0A2A66;
+    padding:15px;
+    text-align:center;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#F4B400;
+}
+
+/* Header */
+header{
+    height:100vh;
+    background:
+    linear-gradient(rgba(10,42,102,0.7), rgba(10,42,102,0.7)),
+    url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    color:#F4B400;
+}
+
+header p{
+    font-size:1.3rem;
+    margin:20px 0;
+    max-width:700px;
+}
+
+.btn{
+    display:inline-block;
+    background:#F4B400;
+    color:#0A2A66;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:5px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#FFD54F;
+}
+
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#0A2A66;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    width:300px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0A2A66;
+    margin-bottom:15px;
+}
+
+
+.programs{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.program-box{
+    background:white;
+    width:280px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.program-box h3{
+    color:#0A2A66;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+    line-height:2;
+}
+
+
+footer{
+    background:#0A2A66;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2.5rem;
+    }
+
+    .section-title{
+        font-size:2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#home">Kryefaqja</a>
+    <a href="#programs">Programet</a>
+    <a href="#levels">Nivelet</a>
+    <a href="#contact">Kontakti</a>
+     <a href="#register">Regjistrimi</a>
+      <a href="#news">Lajmet</a>
+</nav>
+
+<header id="home">
+    <h1>Turgut Özal School</h1>
+    <p>
+        Edukim cilësor, teknologji moderne dhe zhvillim i plotë akademik
+        për të përgatitur nxënësit për të ardhmen.
+    </p>
+
+    <a href="#programs" class="btn">Mëso Më Shumë</a>
+</header>
+<h2>                                                   Rreth Nesh</h2>
+<p>Me një përvojë prej 28 vitesh në arsim, kolegji “Turgut Ozal” u hap në vitin 1995 në Tiranë.
+Prej shkurtit 2020 shkolla jonë është edhe Cambridge 
+International School, e akredituar për të 
+zhvilluar provimet Checkpoint në lëndën e gjuhës angleze,
+ për klasën e pestë dhe të nëntë.
+Nxënësit e arsimuar në shkollën tonë, kanë fituar 
+të drejtën e studimit, duke u pranuar
+në universitetet më të mira në të gjithë botën
+ dhe kanë shkëlqyer në rrugën e tyre të zgjedhur. 
+Të diplomuarit tanë, janë shumë të suksesshëm 
+në jetën e tyre, si personale dhe profesionale,
+ një dëshmi kjo, e cilësisë së lartë të arsimit
+  që ata kanë marrë në “Turgut Ozal”.
+
+Me mbi 1500 nxënës, shkolla jonë ofron një sërë aktivitetesh. Përmes klubeve të shumëllojshme dhe aktiviteteve jashtëshkollore, nxënësit tanë kanë mundësinë të ndjekin pasionet e tyre, të nxitin krijimtarinë, të mësojnë punën në grup duke rritur kështu efektivitetin e tyre dhe duke kultivuar rritjen personale. Parimet mbi të cilat bazohet rruga e institucionit tonë drejt suksesit janë vendosmëria, planifikimi dhe përgjegjësia. Ne jemi të vendosur të arrijmë kulmet e cilësisë në mësimdhënie. </p>
+
+<section id="programs">
+    <h2 class="section-title">Programet Tona</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Arsimi Fillor</h3>
+            <p>
+                Edukim modern me fokus në zhvillimin akademik
+                dhe social të nxënësve.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Arsimi i Mesëm</h3>
+            <p>
+                Përgatitje e avancuar për universitet dhe
+                karrierë profesionale.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Aktivitete Jashtëshkollore</h3>
+            <p>
+                Sport, art, teknologji dhe klube edukative
+                për zhvillim të gjithanshëm.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="levels">
+    <h2 class="section-title">Nivelet e Arsimit</h2>
+
+    <div class="programs">
+
+        <div class="program-box">
+            <h3>Fillore</h3>
+            <p>Klasa 1 - 9</p>
+        </div>
+
+        <div class="program-box">
+            <h3>Gjimnaz</h3>
+            <p>Klasa 10 - 12</p>
+        </div>
+
+        <div class="program-box">
+            <h3>Programe Ndërkombëtare</h3>
+            <p>Përgatitje për studime universitare/olimpiada.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="news">
+    <h2 class="section-title">Lajmet e Fundit</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>|Olimpiada e Matematikes</h3>
+            <p>
+                Nxenesit tane fituan vendin e pare..
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Eskursion Shkollor</h3>
+            <p>
+             Vizite Edukative ne Shtetin e Japonise.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Java e Teknologjise</h3>
+            <p>
+                teknologji dhe klube edukative
+                për zhvillim të gjithanshëm.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Na Kontaktoni</h2>
+
+    <div class="contact">
+        <p>📍 Tiranë, Shqipëri</p>
+        <p>📞 +355 68 123 4567</p>
+        <p>📧 info@turgutozal.edu.al</p>
+    </div>
+</section>
+<section id="register">
+<h2 class="section-title">Regjistrohu</h2>
+<form>
+    <input type="text" placeholder="Emri" required><br><br></input>
+    <input type="text" placeholder="Mbiemri" required><br><br></input>
+    <input type="text" placeholder="Email" required><br><br></input>
+    <input type="text" placeholder="Klasa" required><br><br></input>
+    <button class="btn">Dergo</button>
+</form>
+</section>
+
+<footer>
+    <p>© 2026 Turgut Özal School | Të gjitha të drejtat e rezervuara.</p>
+</footer>
+
+</body>
+</html>
