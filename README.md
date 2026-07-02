@@ -1,0 +1,2 @@
+# shkolla
+TURGUT OZAL
